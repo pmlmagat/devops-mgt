@@ -1,4 +1,4 @@
-# simple-bitcoin-forecasting
+# simple-car-bike-classifier-app
 
 In partial compliance for CPE 019 - Emerging Technologies 2 in CpE
 
