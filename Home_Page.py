@@ -5,6 +5,6 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-st.title("Time Classification)
+st.title("Time Classification")
 
 st.sidebar.success("Select page above.")
