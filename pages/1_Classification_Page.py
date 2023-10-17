@@ -51,11 +51,11 @@ if not uploaded_images:
 else:
     model = load_model()
     class_names = ["Bike", "Car"]
-    num_images = min(len uploaded_images, 5)
+    num_images = min(len(uploaded_images), 5)
 
     for i in range(num_images):
         image = Image.open(uploaded_images[i])
         st.image(image, use_column_width=True)
         prediction = import_and_predict(image, model)
-        string = "OUTPUT: " + class_names[np.argmax(prediction)]
+        string = "OUTPUT : " + class_names[np.argmax(prediction)]
         st.success(string)
