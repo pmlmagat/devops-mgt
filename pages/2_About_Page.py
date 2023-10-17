@@ -52,4 +52,3 @@ architectures = {
 import pandas as pd
 df = pd.DataFrame(architectures)
 st.dataframe(df, width=700)
-)
