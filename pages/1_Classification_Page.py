@@ -38,7 +38,7 @@ st.markdown(
         font-size: 48px;
     }
     .separator {
-        font-size: 24px; /* Smaller font size for the "or" separator */
+        font-size: 24px; /* Font size for the "or" separator */
         margin: 0 10px; /* Adjust margin for spacing */
     }
     </style>
@@ -46,7 +46,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<div class="center"><span class="emoji">🚘</span><span class="separator">or</span><span class="emoji">🚲</span><h1 class="title">Car-Bike Detection</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="center"><span class="emoji">🚘</span><span class="separator"> or </span><span class="emoji">🚲</span></div>', unsafe_allow_html=True)
 
 uploaded_images = st.file_uploader("Choose up to 5 cars or bike photos from your computer", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
