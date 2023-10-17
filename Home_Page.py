@@ -13,11 +13,11 @@ st.markdown(
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 80vh;
     }
 
     .bigger-title {
-        font-size: 36px; /* You can adjust the font size as needed */
+        font-size: 56px; /* You can adjust the font size as needed */
     }
     </style>
     """,
