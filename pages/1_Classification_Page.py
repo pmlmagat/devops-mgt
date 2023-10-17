@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 from PIL import Image,ImageOps
 
-st.set_page_config(page_title="Classification Page", page_icon="🔎")
+st.set_page_config(page_title="Classification Page", page_icon="⏱️")
 
 @st.cache_resource
 
