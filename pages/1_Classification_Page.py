@@ -29,7 +29,7 @@ st.markdown(
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 20vh;
+        height: 80vh; /* Increase the height for better centering */
     }
     .title {
         font-size: 48px; /* Increased font size for the title */
