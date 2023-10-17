@@ -29,6 +29,6 @@ st.markdown(
 )
 
 # Create a container div with the center class to center the emoji and title
-st.markdown('<div class="center"><span class="emoji">🕓</span><h1 class="bigger-title">Time Classification</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="center"><span class="emoji">🕓</span><h1 class="bigger-title"> Time Classification</h1></div>', unsafe_allow_html=True)
 
 st.sidebar.success("Select page above.")
