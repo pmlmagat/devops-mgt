@@ -5,6 +5,22 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-st.title("Time Classification")
+# Add a CSS style to center the title
+st.markdown(
+    """
+    <style>
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+# Create a container div with the center class to center the title
+st.markdown('<div class="center"><h1>Time Classification</h1></div>', unsafe_allow_html=True)
 
 st.sidebar.success("Select page above.")
