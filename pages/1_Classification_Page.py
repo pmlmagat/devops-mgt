@@ -42,9 +42,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<div class="center"><span class="emoji">🚘 // 🚲</span><h1 class="title">Car-Bike Detection</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="center"><span class="emoji">⏱️ → 📟</span><h1 class="title">Convert analog to digital time</h1></div>', unsafe_allow_html=True)
 
-uploaded_images = st.file_uploader("Choose up to 5 cars or bike photos from your computer", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
+uploaded_images = st.file_uploader("Choose up to analog clock photos from your device", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
 if not uploaded_images:
     st.text("Please upload image files")
