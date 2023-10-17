@@ -13,7 +13,7 @@ st.markdown(
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column; /* Added to stack the emoji and title */
+        flex-direction: column; /* Stack the emoji and title */
         height: 80vh;
     }
 
@@ -23,12 +23,21 @@ st.markdown(
     .emoji {
         font-size: 72px; /* Adjust the size of the emoji as needed */
     }
+    .description {
+        text-align: center;
+        font-size: 18px; /* Adjust the font size as needed */
+        margin-top: 20px; /* Add some margin space for better spacing */
+    }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-# Create a container div with the center class to center the emoji and title
-st.markdown('<div class="center"><span class="emoji">🕓</span><h1 class="bigger-title">   Time Classification</h1></div>', unsafe_allow_html=True)
+# Create a container div with the center class to center the emoji, title, and description
+st.markdown(
+    '<div class="center"><span class="emoji">🕓</span><h1 class="bigger-title">Time Classification</h1>'
+    '<p class="description">Simplify Analog Clock Reading.</p></div>',
+    unsafe_allow_html=True,
+)
 
 st.sidebar.success("Select page above.")
