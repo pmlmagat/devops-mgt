@@ -29,7 +29,7 @@ st.markdown(
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 80vh; /* Increase the height for better centering */
+        height: 20vh; /* Increase the height for better centering */
     }
     .title {
         font-size: 48px; /* Increased font size for the title */
@@ -42,7 +42,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<div class="center"><span class="emoji">⏱️ → 📟</span><h1 class="title">Convert analog to digital time</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="center"><span class="emoji">⏱️ → 📟</span><h1 class="title">Analog to Digital Time</h1></div>', unsafe_allow_html=True)
 
 uploaded_images = st.file_uploader("Choose up to analog clock photos from your device", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
