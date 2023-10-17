@@ -44,7 +44,7 @@ st.markdown(
 
 st.markdown('<div class="center"><span class="emoji">⏱️ → 📟</span><h1 class="title">Analog to Digital Time</h1></div>', unsafe_allow_html=True)
 
-uploaded_images = st.file_uploader("Choose up to analog clock photos from your device", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
+uploaded_images = st.file_uploader("Choose up to 5 analog clock photos from your device", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
 if not uploaded_images:
     st.text("Please upload image files")
